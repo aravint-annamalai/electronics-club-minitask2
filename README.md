@@ -13,3 +13,4 @@ In the link given in the earlier repository, the 8051 microcontroller is used. I
 Advantage: The largest Arduino available, Arduino MEGA, costs less than half of an 8051 microcontroller. Also, Arduino can be coded easily and we can focus on the electronics part of the project rather than coding.
 
 Disadvantage: We miss out on working with a new kind of a microcontroller, so the learning outcome of the project will be slightly reduced if we use an Arduino.
+
