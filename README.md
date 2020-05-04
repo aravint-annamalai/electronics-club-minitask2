@@ -10,7 +10,7 @@ To implement an automatic control of a motor which pumps water into a tank such 
 ### Ideate solution:
 
 #### 1. Choice of microcontroller:
-In the link given, the 8051 microcontroller is used. I suggest using an Arduino MEGA (MEGA because we will be using a lot of pins). We can use smaller Arduinos as well if we choose to do away with the extra feature of displaying the level of water as well as the status of motor(whether running or off) on LED.
+In the link given, the 8051 microcontroller is used. I suggest using an Arduino MEGA (MEGA because we will be using a lot of pins). We can use smaller Arduinos as well if we choose to do away with the extra feature of displaying the level of water as well as the status of motor(whether running or off) on LCD.
 
 Advantage: The largest Arduino available, Arduino MEGA, costs less than half of an 8051 microcontroller. Also, Arduino can be coded easily and we can focus on the electronics part of the project rather than coding.
 
@@ -36,3 +36,23 @@ But if it is a project at the college level, then we don't have much time to wor
 As given in the link above, the motor to pump water is connected via a relay. Relay is used to drive the motor since the current originally in the circuit is not sufficient to drive the motor. So, no modification is required here.
 
 This is my idea on how the above project can be implemented.
+
+## PROJECT 2 : CONTACTLESS HANDWASH TIMER
+
+Link: https://www.hackster.io/akshayjoseph666/covid-19-touchless-hand-wash-timer-e2ea56
+
+### Problem Statement:
+To implement a touchless handwash timer which operates for exactly 20 seconds when a hand is sensed by an ultrasonic sensor.
+
+### Ideate solution:
+Even though this project might be slightly on the easier side, it is the need of the hour due to the ongoing COVID-19 crisis which has brought the entire world to a standstill. This project focuses on two important things - firstly, it should be completely contactless and secondly, timing is to be maintained because 20 seconds is a lot of time for a person to wash his/her hands but it is required to get rid of the virus. This project is useful not only in the current scenario but in the future as well, as the Coronavirus might have been gone, but the scars and the lessons that it taught to humanity won't go off soon. 
+
+#### 1. Sensor and microcontroller:
+The project uses Arduino as the microcontroller and ultrasonic sensors as the sensor, which I think are the best options among the available alternatives and are used extensively for the purpose of sensing, especially for handwash based applications.
+
+#### 2. Timer:
+The project adopts a cheap, simple yet interesting way to keep track of the time. When the presence of a hand is sensed, a servo motor rotates from 0 to 180 degrees in 20 sec, which implies, it turns 1 degree every 111.1 millisecond. When the sensor turns by 180 degrees, the pipe is turned off.
+
+If cost is the main consideration here (for example, if it is about to be implemented commercially), then the above method is the way to go. But if it is to be implemented as a project, which should be giving some sort of a learning outcome and a practical experience to its members, then the above method is too simple. One of the methods of implementing a countdown timer using an Arduino is given below:
+
+
