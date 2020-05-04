@@ -21,4 +21,8 @@ This circuit is based on the fact that water conducts electricity. The way in wh
 
 ![](Mini-Task%202%20Images/1.png)
 
+There will be two wires at each level. One set of wires will be connected to ground. The other set of wires are connected to different pins of the Arduino. Since water conducts electricity, when the water reaches that level, the two wires will be shorted and the voltage at the pin of the Arduino will be 0 as it is shorted to the wire which is connected to the ground. We can check the topmost level which has zero potential and report that as the level of water.
+
+This is a simple way to measure the water. The only possible disadvantage/implementation issue is how effective water is as an electrical conductor. But in day-to-day life, we experience shock when we try to operate any electrical equipment with our hands wet. So this won't be that much of an issue I guess. 
+
 
