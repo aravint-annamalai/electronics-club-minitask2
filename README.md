@@ -31,3 +31,8 @@ It is very convenient to have an LCD display which displays the level of water i
 Advantage: The main advantage of the LCD display is that we can actually check whether the automatic motor controller is working or not. If the level of water is empty but if the motor is not running yet, then there is seriously some problem over there. And if we have a manual controller(switch) for the motor as well, and if we want the tank to be full at a particular point of time (for example, if there are a lot of guests at your home, and if they have to freshen up to go to a function, then we don't want the tank to be empty suddenly), then we can check the display and take actions accordingly. So, LCD display is a must if we want to use it in real life.
 
 But if it is a project at the college level, then we don't have much time to work on the LCD display, since the rest of the electronics will take a considerable amount of time and most of the college projects are either one semester or one year projects. If we have time, then surely we can work on the LCD display.
+
+#### 4. Motor Control:
+As given in the link above, the motor to pump water is connected via a relay. Relay is used to drive the motor since the current originally in the circuit is not sufficient to drive the motor. So, no modification is required here.
+
+This is my idea on how the above project can be implemented.
