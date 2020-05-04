@@ -25,4 +25,9 @@ There will be two wires at each level. One set of wires will be connected to gro
 
 This is a simple way to measure the water. The only possible disadvantage/implementation issue is how effective water is as an electrical conductor. But in day-to-day life, we experience shock when we try to operate any electrical equipment with our hands wet. So this won't be that much of an issue I guess. 
 
+#### 3. LCD display (Optional feature):
+It is very convenient to have an LCD display which displays the level of water in the tank, as well as whether the motor is running or not. This enables the user to have a sense of what is happening as far as the motor controller is concerned. 
 
+Advantage: The main advantage of the LCD display is that we can actually check whether the automatic motor controller is working or not. If the level of water is empty but if the motor is not running yet, then there is seriously some problem over there. And if we have a manual controller(switch) for the motor as well, and if we want the tank to be full at a particular point of time (for example, if there are a lot of guests at your home, and if they have to freshen up to go to a function, then we don't want the tank to be empty suddenly), then we can check the display and take actions accordingly. So, LCD display is a must if we want to use it in real life.
+
+But if it is a project at the college level, then we don't have much time to work on the LCD display, since the rest of the electronics will take a considerable amount of time and most of the college projects are either one semester or one year projects. If we have time, then surely we can work on the LCD display.
