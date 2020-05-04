@@ -55,4 +55,6 @@ The project adopts a cheap, simple yet interesting way to keep track of the time
 
 If cost is the main consideration here (for example, if it is about to be implemented commercially), then the above method is the way to go. But if it is to be implemented as a project, which should be giving some sort of a learning outcome and a practical experience to its members, then the above method is too simple. One of the methods of implementing a countdown timer using an Arduino is given below:
 
+https://electronics-project-hub.com/arduino-countdown-timer-with-lcd-and-buzzer/
 
+There are two ways of implementing the way by which the end of 20 seconds is signalled. One way is, as above, we can stop the flow of water from the tap as soon as the timer comes to zero. Or, since the timer is integrated with a buzzer, when the buzzer rings, the user will take his/her hands far away from the sensor. Since there is nothing sensed by the ultrasonic sensor, the water flow from the pipe stops.
