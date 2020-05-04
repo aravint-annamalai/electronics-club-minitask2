@@ -19,6 +19,6 @@ Disadvantage: We miss out on working with a new kind of a microcontroller, so th
 #### 2. Water Level Measurement:
 This circuit is based on the fact that water conducts electricity. The way in which the water level is measured is depicted in the circuit below:
 
-![](
+![](Mini-Task%202%20Images/1.png)
 
 
